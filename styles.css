@@ -1,0 +1,171 @@
+body{
+    font-family: "Montserrat-Light", sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* HEADINGS */
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 5%;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* CONTAINERS */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* SECTIONS */
+
+.color{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white{
+    background-color: white;
+}
+
+/* NAVIGATION BAR */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* TITLE SECTION */
+
+#title .container-fluid{
+    text-align: left;
+    padding: 3% 15% 7%;
+}
+
+.title-image{
+    transform: rotate(25deg);
+    width: 23%;
+    position: absolute;
+    right: 24%;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* FEATURES */
+
+#features{
+    position: relative;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.features-img:hover{
+    color: #ff4c68 !important;
+}
+
+.feature-title{
+    padding: 5% 0 2% 0;
+    font-size: 1.4rem;
+}
+
+/* TESTIMONIALS */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 3 rem;
+    line-height: 1.5;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 13%;
+    margin: 20px 20px 50px;
+}
+
+/* PRICING */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.price-category{
+    padding: 5% 0 2% 0;
+    font-size: 1.4rem;
+}
+
+/* FOOTER */
+
+.footer-img{
+    margin: 20px 10px;
+    color: black;
+}
+
+.footer-img:hover{
+    color: #ff4c68;
+}
+
+/* MEDIA QUERY BREAKPOINT */
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
